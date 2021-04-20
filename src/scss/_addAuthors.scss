@@ -1,0 +1,34 @@
+#idValidate, #fnameValidate, #lnameValidate, #emailValidate {
+    padding: 5px 10px;
+  margin-top: 7px;
+  background-color: rgb(250, 202, 210);
+  color: rgb(247, 32, 104);
+}
+
+.saveUpdate{
+  display: flex;
+}
+
+#loading {
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #800aee;
+    border-bottom: 3px solid #800aee;
+
+    border-radius: 100%;
+    margin: auto;
+    // visibility: hidden;
+    animation: spin 1s infinite linear;
+}
+// #loading.display {
+//     visibility: visible;
+// }
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

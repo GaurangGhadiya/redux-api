@@ -1,0 +1,13 @@
+.navbar {
+  border-bottom: 1px solid lightgray;
+  justify-content: end !important;
+
+  .navlink {
+    margin-right: 20px;
+    color: black;
+
+    &:hover {
+      text-decoration: none !important;
+    }
+  }
+}

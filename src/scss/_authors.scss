@@ -1,0 +1,24 @@
+.container {
+  margin-top: 50px;
+
+  .add-btn {
+    margin: 20px 0px;
+    float: right;
+
+    &:focus,
+    &:active:focus,
+    &.active:focus {
+      box-shadow: none !important;
+    }
+  }
+}
+
+.table {
+  tr{
+    text-align: center;
+  }
+
+  th {
+    text-align: center;
+  }
+}
